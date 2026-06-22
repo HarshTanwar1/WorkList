@@ -24,18 +24,13 @@ The project showcases a full request-to-database flow in Django: **authenticatio
 
 <br>
 
-## ✨ Features
+## 🌟 Key Highlights
 
-| Feature                     | Description                                                                              |
-| --------------------------- | ---------------------------------------------------------------------------------------- |
-| 👤 **User Registration**    | Sign up with a user ID and password, with input validation and duplicate-ID protection   |
-| 🔐 **Authentication**       | Secure login backed by Django's built-in auth system and sessions                        |
-| ➕ **Add Tasks**            | Create one or many tasks at once — add/remove input fields dynamically before submitting |
-| 📋 **View Tasks**           | All of a user's tasks displayed in a clean table after login                             |
-| ✅ **Toggle Status**        | Mark tasks complete or incomplete (completed tasks show with strikethrough)              |
-| ✏️ **Edit Tasks**           | Update a task's description in place                                                     |
-| 🗑️ **Delete Tasks**         | Remove tasks you no longer need                                                          |
-| 💾 **Per-User Persistence** | Each user's task list is stored in the database and tied to their account                |
+- 🔐 **Secure multi-user system** powered by Django's built-in authentication and session management
+- 🗄️ **Full CRUD functionality** — create, read, update, and delete tasks, all persisted per user
+- ⚙️ **End-to-end Django workflow** — models, migrations, views, URL routing, and templates working together
+- 🪶 **Lightweight & dependency-free** — runs out of the box on Django + SQLite with no extra setup
+- 📖 **Clean, readable codebase** — a compact project that's easy to follow and build upon
 
 <br>
 
@@ -49,6 +44,21 @@ The project showcases a full request-to-database flow in Django: **authenticatio
 - **HTML + Django Templates** — server-side rendered UI
 - **Vanilla JavaScript** — dynamic add/remove of task fields on the "Add Task" page
 - **CSS** — lightweight styling on the task list
+
+<br>
+
+## ✨ Features & Functionality
+
+| Feature                     | Description                                                                              |
+| --------------------------- | ---------------------------------------------------------------------------------------- |
+| 👤 **User Registration**    | Sign up with a user ID and password, with input validation and duplicate-ID protection   |
+| 🔐 **Authentication**       | Secure login backed by Django's built-in auth system and sessions                        |
+| ➕ **Add Tasks**            | Create one or many tasks at once — add/remove input fields dynamically before submitting |
+| 📋 **View Tasks**           | All of a user's tasks displayed in a clean table after login                             |
+| ✅ **Toggle Status**        | Mark tasks complete or incomplete (completed tasks show with strikethrough)              |
+| ✏️ **Edit Tasks**           | Update a task's description in place                                                     |
+| 🗑️ **Delete Tasks**         | Remove tasks you no longer need                                                          |
+| 💾 **Per-User Persistence** | Each user's task list is stored in the database and tied to their account                |
 
 <br>
 
