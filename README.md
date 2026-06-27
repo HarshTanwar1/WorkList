@@ -26,39 +26,36 @@ The project showcases a full request-to-database flow in Django: **authenticatio
 
 ## 🌟 Key Highlights
 
-- 🔐 **Secure multi-user system** powered by Django's built-in authentication and session management
-- 🗄️ **Full CRUD functionality** — create, read, update, and delete tasks, all persisted per user
-- ⚙️ **End-to-end Django workflow** — models, migrations, views, URL routing, and templates working together
-- 🪶 **Lightweight & dependency-free** — runs out of the box on Django + SQLite with no extra setup
-- 📖 **Clean, readable codebase** — a compact project that's easy to follow and build upon
+- 🔐 **Secure multi-user system** powered by Django's built-in authentication and session management.
+- 🗄️ **Full CRUD functionality** — create, read, update, and delete tasks, all persisted per user.
+- ⚙️ **End-to-end Django workflow** — models, migrations, views, URL routing, and templates working together.
+- 🪶 **Lightweight & dependency-free** — runs out of the box on Django + SQLite with no extra setup.
+- 📖 **Clean, readable codebase** — a compact project that's easy to follow and build upon.
 
 <br>
 
 ## 🛠️ Tech Stack
 
-- **Python 3.10.10**
-- **Django 4.1.6** — web framework (function-based views, URL routing, template engine)
-- **SQLite3** — default database (`db.sqlite3`)
-- **Django ORM** — data persistence, including a `JSONField` for storing each user's tasks
-- **Django Auth** (`django.contrib.auth`) — registration, authentication & sessions
-- **HTML + Django Templates** — server-side rendered UI
-- **Vanilla JavaScript** — dynamic add/remove of task fields on the "Add Task" page
-- **CSS** — lightweight styling on the task list
+| Layer         | Technologies                                                                    |
+| ------------- | ------------------------------------------------------------------------------- |
+| **Language**  | Python 3.10.10                                                                  |
+| **Framework** | Django 4.1.6 (function-based views, URL routing, template engine)               |
+| **Database**  | SQLite3 with the Django ORM (uses a `JSONField` to store each user's tasks)     |
+| **Auth**      | Django Auth (`django.contrib.auth`) for registration, authentication & sessions |
+| **Frontend**  | HTML, Django Templates, CSS, and vanilla JavaScript                             |
 
 <br>
 
 ## ✨ Features & Functionality
 
-| Feature                     | Description                                                                              |
-| --------------------------- | ---------------------------------------------------------------------------------------- |
-| 👤 **User Registration**    | Sign up with a user ID and password, with input validation and duplicate-ID protection   |
-| 🔐 **Authentication**       | Secure login backed by Django's built-in auth system and sessions                        |
-| ➕ **Add Tasks**            | Create one or many tasks at once — add/remove input fields dynamically before submitting |
-| 📋 **View Tasks**           | All of a user's tasks displayed in a clean table after login                             |
-| ✅ **Toggle Status**        | Mark tasks complete or incomplete (completed tasks show with strikethrough)              |
-| ✏️ **Edit Tasks**           | Update a task's description in place                                                     |
-| 🗑️ **Delete Tasks**         | Remove tasks you no longer need                                                          |
-| 💾 **Per-User Persistence** | Each user's task list is stored in the database and tied to their account                |
+- 👤 **User Registration** — sign up with a user ID and password, with input validation and duplicate-ID protection.
+- 🔐 **Authentication** — secure login backed by Django's built-in auth system and sessions.
+- ➕ **Add Tasks** — create one or many tasks at once, adding/removing input fields dynamically before submitting.
+- 📋 **View Tasks** — all of a user's tasks displayed in a clean table after login.
+- ✅ **Toggle Status** — mark tasks complete or incomplete (completed tasks shown with strikethrough).
+- ✏️ **Edit Tasks** — update a task's description in place.
+- 🗑️ **Delete Tasks** — remove tasks you no longer need.
+- 💾 **Per-User Persistence** — each user's task list is stored in the database and tied to their account.
 
 <br>
 
