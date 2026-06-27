@@ -61,26 +61,39 @@ The project showcases a full request-to-database flow in Django: **authenticatio
 
 ## ⚡ Getting Started
 
+### 1. Clone the repository
+
 ```bash
-# 1. Clone the repository
 git clone https://github.com/HarshTanwar1/WorkList.git
 cd WorkList
+```
 
-# 2. (Recommended) Create and activate a virtual environment
+### 2. Create and activate a virtual environment _(recommended)_
+
+```bash
 python -m venv venv
 source venv/bin/activate          # On Windows: venv\Scripts\activate
+```
 
-# 3. Install Django
+### 3. Install Django
+
+```bash
 pip install django==4.1.6
+```
 
-# 4. Apply database migrations
+### 4. Apply database migrations
+
+```bash
 python manage.py migrate
+```
 
-# 5. Run the development server
+### 5. Run the development server
+
+```bash
 python manage.py runserver
 ```
 
-Then open your browser at **http://127.0.0.1:8000/**, register an account, and start managing your tasks! 🎉
+Then open the app at **http://127.0.0.1:8000/** in your browser, register an account, and start managing your tasks! 🎉
 
 <br>
 
